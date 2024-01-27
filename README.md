@@ -6,3 +6,6 @@
 An Android application to learn about the heart.
 
 <img width=200 alt="Splash Screen" src="https://i.imgur.com/fSc529d.jpg">
+
+## LICENSE
+[Apache-2.0](LICENSE)
