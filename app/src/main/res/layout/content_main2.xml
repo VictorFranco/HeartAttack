@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relative_user_interface"
+    style="@style/matchmatch"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="mx.ipn.heartattack.Profile"
+    tools:showIn="@layout/app_bar_main2">
+</RelativeLayout >

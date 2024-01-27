@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/matchmatch"
+    android:background="@color/dark_gray"
+    tools:context=".Fisionomy">
+    <TableLayout
+        android:layout_gravity="center_vertical"
+        style="@style/matchmatch">
+        <TableRow>
+            <Button
+                android:paddingTop="@dimen/Long_35dp"
+                android:paddingBottom="@dimen/Long_35dp"
+                android:layout_margin="@dimen/Margin_10dp"
+                android:textColor="@color/white"
+                android:text="Funciones del \ncorazón"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/green"/>
+            <Button
+                android:paddingTop="@dimen/Long_35dp"
+                android:paddingBottom="@dimen/Long_35dp"
+                android:layout_margin="@dimen/Margin_10dp"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:text="Descripción"
+                android:layout_weight="1"
+                android:background="@color/green"/>
+        </TableRow>
+        <TableRow
+            android:layout_weight="1">
+            <Button
+                android:paddingTop="@dimen/Long_35dp"
+                android:paddingBottom="@dimen/Long_35dp"
+                android:layout_margin="@dimen/Margin_10dp"
+                android:textColor="@color/white"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:text="El sistema de\n Conducción"
+                android:background="@color/green"/>
+            <Button
+                android:paddingTop="@dimen/Long_35dp"
+                android:paddingBottom="@dimen/Long_35dp"
+                android:layout_margin="@dimen/Margin_10dp"
+                android:textColor="@color/white"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="El aparato \nCirculatorio"
+                android:background="@color/green"/>
+        </TableRow>
+    </TableLayout>
+</ScrollView>

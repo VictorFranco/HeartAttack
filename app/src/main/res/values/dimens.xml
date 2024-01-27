@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="Start_image_start_width">200dp</dimen>
+    <dimen name="Start_image_start_height">209dp</dimen>
+    <dimen name="Start_Title_size">50sp</dimen>
+    <dimen name="Margin_10dp">10dp</dimen>
+    <dimen name="Margin_20dp">20dp</dimen>
+    <dimen name="Margin_3dp">3dp</dimen>
+    <dimen name="Long_35dp">35dp</dimen>
+    <dimen name="size_sp_30sp">30sp</dimen>
+    <dimen name="btn_options_w">250dp</dimen>
+    <dimen name="btn_options_h">80dp</dimen>
+    <dimen name="btn_sp">25sp</dimen>
+    <dimen name="h_180dp">180dp</dimen>
+    <dimen name="Margin_0dp">0dp</dimen>
+    <dimen name="width_.1dp">.1dp</dimen>
+    <dimen name="weight_.5">.5</dimen>
+    <dimen name="weight_33">33</dimen>
+    <dimen name="Table_height">68dp</dimen>
+    <dimen name="weightSum">100</dimen>
+    <dimen name="Information_Heart_Title">30sp</dimen>
+    <dimen name="Information_Heart_Sub">20sp</dimen>
+    <dimen name="Information_Heart_Txt">15sp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+</resources>

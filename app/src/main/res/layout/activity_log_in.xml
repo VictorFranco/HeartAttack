@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/matchmatch"
+    tools:context="mx.ipn.heartattack.LogIn">
+    <RelativeLayout
+        style="@style/warpwarp"
+        android:layout_gravity="center_vertical">
+        <EditText
+            android:id="@+id/login_user"
+            style="@style/Edit"
+            android:layout_marginBottom="@dimen/Long_35dp"
+            android:hint="@string/txt_user"
+            android:inputType="text" />
+        <EditText
+            android:id="@+id/login_password"
+            style="@style/Edit"
+            android:layout_below="@+id/login_user"
+            android:layout_marginBottom="@dimen/Long_35dp"
+            android:hint="@string/txt_password"
+            android:inputType="textPassword" />
+        <Button
+            android:id="@+id/btn_login"
+            style="@style/Btn"
+            android:layout_below="@+id/login_password"
+            android:text="@string/txt_login" />
+    </RelativeLayout>
+</ScrollView>

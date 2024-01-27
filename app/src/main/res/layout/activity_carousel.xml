@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/matchmatch"
+    tools:context=".Carousel">
+    <ViewFlipper
+        android:id="@+id/img_switcher"
+        style="@style/view_flipper">
+        <ImageView
+            android:src="@drawable/computer"
+            style="@style/img_flipper"
+            android:id="@+id/img1"/>
+        <ImageView
+            android:src="@drawable/phone"
+            style="@style/img_flipper"
+            android:id="@+id/img2"/>
+    </ViewFlipper>
+    <Button
+        android:id="@+id/btn_start"
+        style="@style/Btn_capital_letter"
+        android:layout_below="@id/img_switcher"
+        android:layout_marginBottom="@dimen/Margin_10dp"
+        android:text="@string/txt_start" />
+</RelativeLayout>

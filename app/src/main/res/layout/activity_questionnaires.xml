@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/matchmatch"
+    tools:context=".Questionnaires">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical">
+            <TextView
+                android:id="@+id/c"
+                style="@style/Title"
+                android:text="Cuestionarios" />
+            <TextView
+                android:id="@+id/xx"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/c"
+                android:text="¿El corazon es un organo vital?" />
+            <TableLayout
+                android:id="@+id/tt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/xx">
+                <RadioGroup>
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="si" />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="no" />
+                </RadioGroup>
+            </TableLayout>
+            <Button
+                android:id="@+id/btn_questionnaires_save"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tt"
+                android:layout_centerHorizontal="true"
+                android:text="enviar" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

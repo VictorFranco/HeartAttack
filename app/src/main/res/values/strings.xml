@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Heart Attack</string>
+    <string name="txt_start">Start</string>
+    <string name="txt_after">After</string>
+    <string name="txt_before">Before</string>
+    <string name="txt_skip">Skip</string>
+    <string name="txt_login">Login</string>
+    <string name="txt_check_in">Check in</string>
+    <string name="txt_name">Name</string>
+    <string name="txt_user">User</string>
+    <string name="txt_password">Password</string>
+    <string name="txt_email">Email</string>
+    <string name="txt_roger_that">Roger that</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="txt_questionnaires">Questionnaires</string>
+    <string name="txt_stats">Stats</string>
+    <string name="txt_sign_off">Sign off</string>
+    <string name="txt_settings">Settings</string>
+    <string name="txt_unsubscribe">Unsubscribe</string>
+    <string name="txt_advanced">Advanced</string>
+    <string name="txt_home">Home</string>
+    <string name="txt_heart">Heart</string>
+    <string name="txt_table_btn1">Utiliza la sección de información</string>
+    <string name="txt_table_btn2">Revisa tus estadisticas</string>
+    <string name="txt_table_btn3">Realiza otra de las lecciones</string>
+    <string name="txt_welcome">Bienvenido:</string>
+    <string name="txt_Anatomy">Anatomy</string>
+    <string name="txt_Fisionomy">Fisionomy</string>
+    <string name="txt_anatomy_title">Morfología del corazón</string>
+    <string name="txt_anatomy_sub1">Cavidades Cardiacas</string>
+    <string name="txt_anatomy_txt1">El corazón se divide en cuatro cavidades, dos superiores atrios o aurículas y dos inferiores o ventrículos. Los atrios reciben la sangre del sistema venoso, pasan a los ventrículos y desde ahí salen a la circulación arterial. El atrio derecho y el ventrículo derecho forman el corazón derecho. Recibe la sangre que proviene de todo el cuerpo, que desemboca en el atrio derecho a través de las venas cavas, superior e inferior. El atrio izquierdo y el ventrículo izquierdo forman el corazón izquierdo. Recibe la sangre de la circulación pulmonar, que desemboca a través de las cuatro venas pulmonares  a la porción superior de la aurícula izquierda. Esta sangre está oxigenada y proviene de los pulmones. El ventrículo izquierdo la envía por la arteria aorta  para distribuirla por todo el organismo. \n El tejido que separa el corazón derecho del izquierdo se denomina septo o tabique. Funcionalmente, se divide en dos partes no separadas: la superior o tabique interauricular, y la inferior o tabique interventricular. Este último es especialmente importante, ya que por él discurre el fascículo de his , que permite llevar el impulso eléctrico a las partes más bajas del corazón.</string>
+    <string name="txt_anatomy_sub2">Válvulas Cardiacas</string>
+    <string name="txt_anatomy_txt2">Las válvulas cardíacas son:\n La válvula tricúspide se encuentra entre la aurícula derecha y el ventrículo derecho.\n La válvula pulmonar se encuentra entre el ventrículo derecho y la arteria pulmonar.\n La válvula mitral se encuentra entre la aurícula izquierda y el ventrículo izquierdo.\n La válvula aórtica se encuentra entre el ventrículo izquierdo y la aorta.\n Cada válvula tiene un juego de aletas (también llamadas valvas o cúspides). Cuando funcionan bien, las válvulas cardíacas se abren y se cierran completamente.\n Sin embargo, no siempre funcionan como deberían. Una persona puede nacer con una válvula cardíaca anormal, un tipo de defecto cardíaco congénito. Además, una válvula puede resultar dañada por:\n infecciones como la endocarditis infecciosa.\n fiebre reumática.\n Cambios en la estructura de la válvula en las personas de mayor edad.</string>
+    <string name="txt_anatomy_sub3">Estructura del corazón.</string>
+    <string name="txt_anatomy_txt3">b</string>
+    <string name="txt_anatomy_sub4">El endocardio</string>
+    <string name="txt_anatomy_txt4">El endocardio es la capa más interna de las múltiples capas que revisten al corazón. Esta delgada lámina recubre todos los compartimientos y todas las válvulas del corazón.El endocardio es la capa más interna de las múltiples capas que revisten al corazón. Esta delgada lámina recubre todos los compartimientos y todas las válvulas del corazón.El endotelio forma una lámina continua con el revestimiento endotelial de los vasos sanguíneos.Debido a que el endocardio reviste las estructuras internas del corazón, incluidas aurículas y ventrículos, este siempre está en contacto con la circulación sanguínea.\n El grosor del endocardio varía a lo largo de las distintas estructuras del corazón, siendo más delgado el endocardio de los ventrículos que el de las aurículas.A pesar de que el endocardio es una capa muy delgada de tejido, cumple tres funciones importantes para el sistema cardiovascular.\n En primer lugar, el endocardio proporciona una superficie lisa para el interior del corazón. Esta superficie lisa permite que la sangre fluya libremente a lo largo de los tejidos.\n Sin esta capa, los componentes sanguíneos podrían adherirse a las paredes del corazón y causar daños a los tejidos, o incluso provocar bloqueos.\n En segundo lugar, el endocardio juega un papel fundamental en los latidos del corazón al contener las fibras de Purkinje.\n Las fibras de Purkinje en el endocardio ayudan a transmitir las señales eléctricas a todo el corazón. Esta electricidad ayuda a que los músculos del corazón se contraigan: es lo que hace que el corazón lata.\n En tercer lugar, el endocardio forma pliegues adicionales alrededor de las válvulas del corazón (atrio-ventriculares y semi-lunares), lo que ayuda a que las válvulas sean más fuertes y funcionen mejor.\n En resumen, el corazón es un órgano muy poderoso en el sistema cardiovascular y el endocardio es una de las capas que forman el corazón, por lo cual es un elemento de gran importancia.</string>
+    <string name="txt_anatomy_sub5">El miocardio</string>
+    <string name="txt_anatomy_txt5">Mio: músculo y Cardio: corazón, es el músculo cardíaco encargado de bombear la sangre por el sistema circulatorio mediante contracción.\n Capa media y gruesa, la cual está formada por fibras musculares cardíacas entrelazadas, que permiten la contracción y la relajación del corazón.\n Su tejido muscular es semejante al tejido muscular estriado, pero sus células tienen una estructura tal que permiten la contracción de todas a la vez, al unísono. Esto se denomina sincitio cardíaco y permite impulsar eficientemente la sangre desde el corazón con cada latido.</string>
+    <string name="txt_anatomy_sub6">El epicardio.</string>
+    <string name="txt_anatomy_txt6">a</string>
+
+    <string name="txt_fisionomy_title">Funcionamiento del corazón.</string>
+    <string name="txt_fisionomy_sub1">Funciones del corazón en el cuerpo humano:</string>
+    <string name="txt_fisionomy_txt1">La función del corazón es bombear la sangre a todos los rincones del organismo. La sangre recoge oxígeno a su paso por los pulmones y circula hasta el corazón para ser impulsada a todas las partes del cuerpo. Después de su viaje por el organismo, la sangre queda sin oxígeno y es enviada de nuevo al corazón para que éste la bombee a los pulmones con el fin de recoger más oxígeno. Así se completa el ciclo.</string>
+    <string name="txt_fisionomy_sub2">Descripción de cómo trabaja el corazón</string>
+    <string name="txt_fisionomy_txt2">El corazón es una bolsa compuesta por músculos con vasos sanguíneos que entran y salen de él. Está situado entre los pulmones, a la izquierda del tórax, apoyado sobre el diafragma y detrás del esternón. La masa muscular que lo constituye recibe el nombre de miocardio y está formada por tejido muscular de tipo cardíaco, que se caracteriza por no estar sometido a la voluntad, sino que funciona de manera automática (a diferencia de los músculos del brazo, por ejemplo).\n El interior del corazón está dividido en cuatro cámaras (dos aurículas y dos ventrículos) separadas por unas válvulas llamadas tricúspide (a la derecha) y mitral (a la izquierda). Unas gruesas paredes musculares separan la parte derecha e izquierda del corazón, que actúan como dos corazones coordinados: la parte izquierda para la sangre arterial (rica en oxígeno), y la derecha para la venosa (pobre en oxígeno).\n La función del corazón es bombear la sangre a todos los rincones del organismo. La sangre recoge oxígeno a su paso por los pulmones y circula hasta el corazón para ser impulsada a todas las partes del cuerpo. Después de su viaje por el organismo, la sangre queda sin oxígeno y es enviada de nuevo al corazón para que éste la bombee a los pulmones con el fin de recoger más oxígeno. Así se completa el ciclo.\n Para impulsar la sangre por los vasos de todo el cuerpo, el corazón se contrae y se relaja rítmicamente. La fase de contracción se llama sístole, que corresponde a la expulsión de la sangre fuera de la cavidad. A esta fase sistólica le sigue una fase de relajación muscular llamada diástole, en la que se pueden distinguir dos etapas: una de relajación y otra de succión para arrastrar la sangre hasta el interior. El ritmo cardíaco, la intensidad y la fuerza de contracción y relajación están regulados por los centros situados en el hipotálamo (en el cerebro), que elaboran los impulsos nerviosos adecuados, y por sustancias químicas como la adrenalina y la noradrenalina, que son hormonas que actúan sobre el corazón.\n Como el corazón también necesita oxígeno para funcionar, en el exterior hay unos vasos sanguíneos que se lo proporcionan.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/matchmatch"
+    tools:context=".StartOptions">
+    <Button
+        android:id="@+id/btn_option_login"
+        style="@style/Btn_options"
+        android:layout_marginTop="@dimen/Long_35dp"
+        android:text="@string/txt_login"/>
+    <Button
+        android:id="@+id/btn_option_registry"
+        android:layout_below="@+id/btn_option_login"
+        style="@style/Btn_options"
+        android:layout_marginTop="@dimen/Margin_20dp"
+        android:text="@string/txt_check_in"/>
+</RelativeLayout>

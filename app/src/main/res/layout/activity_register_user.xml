@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/matchmatch"
+    tools:context="mx.ipn.heartattack.RegisterUser">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/registry_name"
+            style="@style/Edit"
+            android:hint="@string/txt_name" />
+        <EditText
+            android:id="@+id/registry_user"
+            style="@style/Edit"
+            android:layout_below="@+id/registry_name"
+            android:hint="@string/txt_user" />
+        <EditText
+            android:id="@+id/registry_email"
+            style="@style/Edit"
+            android:layout_below="@+id/registry_user"
+            android:hint="@string/txt_email"
+            android:inputType="textEmailAddress" />
+        <EditText
+            android:id="@+id/registry_password"
+            style="@style/Edit"
+            android:layout_below="@+id/registry_email"
+            android:layout_marginBottom="@dimen/Margin_10dp"
+            android:hint="@string/txt_password"
+            android:inputType="textPassword" />
+        <Button
+            android:id="@+id/btn_registry"
+            style="@style/Btn"
+            android:layout_below="@+id/registry_password"
+            android:text="@string/txt_check_in" />
+    </RelativeLayout>
+</ScrollView>

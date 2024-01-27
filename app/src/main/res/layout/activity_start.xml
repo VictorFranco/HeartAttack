@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/matchmatch"
+    tools:context=".Start">
+    <ImageView
+        android:id="@+id/img_start"
+        style="@style/StartImage"
+        android:src="@drawable/heart" />
+    <TextView
+        android:id="@+id/title"
+        style="@style/Title"
+        android:layout_below="@+id/img_start"
+        android:text="@string/app_name" />
+</RelativeLayout>

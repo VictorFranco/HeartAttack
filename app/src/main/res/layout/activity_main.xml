@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/matchmatch"
+    tools:context="mx.ipn.heartattack.MainActivity">
+    <RelativeLayout
+        android:id="@+id/relative_start"
+        android:layout_gravity="center"
+        android:layout_marginTop="-50dp"
+        style="@style/matchwarp">
+    </RelativeLayout>
+</ScrollView>
