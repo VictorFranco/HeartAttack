@@ -1,53 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scroll_home"
     style="@style/matchmatch"
     tools:context=".Home">
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="-50dp"
-        android:layout_gravity="center">
-        <ImageView
-            android:id="@+id/img12"
-            android:layout_width="267dp"
-            android:layout_height="200dp"
-            android:layout_centerHorizontal="true"
-            android:src="@drawable/heart_in_the_body" />
-        <TextView
-            android:id="@+id/txt_user"
-            style="@style/warpwarp"
-            android:layout_below="@id/img12"
-            android:layout_centerHorizontal="true"
-            android:padding="7dp"
-            android:text=""
-            android:textColor="@color/dark_gray" />
-        <TableLayout
-            android:id="@+id/table"
-            style="@style/Table_home"
-            android:layout_below="@id/txt_user">
-            <TableRow>
-                <Button
-                    android:id="@+id/profile_btn1"
-                    style="@style/Button_TableRow_home"
-                    android:text="@string/txt_table_btn1" />
-            </TableRow>
-            <View style="@style/View_Table_home" />
-            <TableRow>
-                <Button
-                    android:id="@+id/profile_btn2"
-                    style="@style/Button_TableRow_home"
-                    android:text="@string/txt_table_btn2" />
-            </TableRow>
-            <View style="@style/View_Table_home" />
-            <TableRow>
-                <Button
-                    android:id="@+id/profile_btn3"
-                    style="@style/Button_TableRow_home"
-                    android:text="@string/txt_table_btn3" />
-            </TableRow>
-            <View style="@style/View_Table_home" />
-        </TableLayout>
-    </RelativeLayout>
+    <android.support.v7.widget.CardView
+        style="@style/CardView_home"
+        app:cardElevation="@dimen/Margin_20dp"
+        app:cardUseCompatPadding="true">
+        <RelativeLayout
+            style="@style/matchwarp">
+            <ImageView
+                android:id="@+id/img12"
+                style="@style/Img_home"/>
+            <TextView
+                android:id="@+id/txt_user"
+                style="@style/TextView_home"
+                android:layout_below="@id/img12"/>
+            <TableLayout
+                android:id="@+id/table"
+                style="@style/Table_home"
+                android:layout_below="@id/txt_user">
+                <TableRow>
+                    <Button
+                        android:id="@+id/profile_btn1"
+                        style="@style/Button_TableRow_home"
+                        android:text="@string/txt_table_btn1" />
+                </TableRow>
+                <View style="@style/View_Table_home" />
+                <TableRow>
+                    <Button
+                        android:id="@+id/profile_btn2"
+                        style="@style/Button_TableRow_home"
+                        android:text="@string/txt_table_btn2" />
+                </TableRow>
+                <View style="@style/View_Table_home" />
+                <TableRow>
+                    <Button
+                        android:id="@+id/profile_btn3"
+                        style="@style/Button_TableRow_home"
+                        android:text="@string/txt_table_btn3" />
+                </TableRow>
+                <View style="@style/View_Table_home" />
+            </TableLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/View_home_h"
+                android:layout_below="@id/table">
+            </View>
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
 </ScrollView>

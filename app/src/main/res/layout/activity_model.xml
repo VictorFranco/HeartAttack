@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/space_heart"
     style="@style/matchmatch"
     tools:context=".Model">
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="400dp"
-        android:src="@drawable/drawing_of_the_heart"/>
+        <FrameLayout
+            style="@style/matchmatch">
+            <LinearLayout
+                android:id="@+id/linear_modelo"
+                style="@style/matchmatch"
+                android:gravity="center"
+                android:orientation="vertical">
+                <Button
+                    android:id="@+id/btn_option_modelo"
+                    style="@style/Btn_options"
+                    android:text="Proximamente" />
+            </LinearLayout>
+        </FrameLayout>
 </RelativeLayout>

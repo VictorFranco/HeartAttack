@@ -17,6 +17,7 @@ import android.widget.ViewFlipper;
 public class Carousel extends Fragment implements View.OnClickListener{
     ViewFlipper vw;
     Button btn_start;
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         // Inflate the layout for this fragment

@@ -18,24 +18,52 @@
     <style name="Title">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_centerHorizontal">true</item>
         <item name="android:textSize">@dimen/Start_Title_size</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+
+    <style name="Title_questionnaires">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/Title_questionnaires_size</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_gravity">center_horizontal</item>
     </style>
 
     <style name="Btn">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_centerHorizontal">true</item>
-        <item name="android:textSize">@dimen/btn_sp</item>
-        <item name="android:padding">10dp</item>
+        <item name="android:textSize">@dimen/Btn_sp</item>
+        <item name="android:padding">@dimen/Button_Padding_10dp</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="Btn_start_options">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:textSize">@dimen/Btn_sp</item>
+        <item name="android:padding">@dimen/Button_Padding_10dp</item>
         <item name="android:textAllCaps">false</item>
     </style>
 
     <style name="Btn_options">
-        <item name="android:layout_width">@dimen/btn_options_w</item>
-        <item name="android:layout_height">@dimen/btn_options_h</item>
+        <item name="android:layout_width">@dimen/Btn_options_w</item>
+        <item name="android:layout_height">@dimen/Btn_options_h</item>
         <item name="android:layout_centerHorizontal">true</item>
-        <item name="android:textSize">@dimen/size_sp_30sp</item>
+        <item name="android:textSize">@dimen/Size_sp_30sp</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="Btn_options_question">
+        <item name="android:layout_width">@dimen/Btn_options_w</item>
+        <item name="android:layout_height">@dimen/Btn_options_question_h</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:textSize">@dimen/Size_sp_30sp</item>
         <item name="android:textAllCaps">false</item>
     </style>
 
@@ -43,14 +71,27 @@
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_centerHorizontal">true</item>
-        <item name="android:padding">10dp</item>
-        <item name="android:textSize">@dimen/btn_sp</item>
+        <item name="android:padding">@dimen/Button_Padding_10dp</item>
+        <item name="android:textSize">@dimen/Btn_sp</item>
     </style>
 
     <style name="Edit">
         <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">60dp</item>
-        <item name="android:textSize">30sp</item>
+        <item name="android:layout_height">@dimen/Edit_width_60dp</item>
+        <item name="android:textSize">@dimen/Edit_txt_size_30sp</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="CardView_settings">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+
+    <style name="Edit_settings">
+        <item name="android:layout_width">@dimen/Edit_width_200dp</item>
+        <item name="android:layout_height">@dimen/Edit_width_60dp</item>
+        <item name="android:textSize">@dimen/Edit_txt_size_30sp</item>
         <item name="android:textAlignment">center</item>
     </style>
 
@@ -63,12 +104,33 @@
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
+    <style name="CardView_home">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="Img_home">
+        <item name="android:layout_width">@dimen/Img_home_w</item>
+        <item name="android:layout_height">@dimen/Img_home_h</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginTop">@dimen/Img_home_margin</item>
+        <item name="android:src">@drawable/heart_in_the_body</item>
+    </style>
+
+    <style name="TextView_home">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:padding">@dimen/txt_home_padding</item>
+        <item name="android:textColor">@color/dark_gray</item>
+    </style>
+
     <style name="Table_home">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_marginLeft">@dimen/Margin_20dp</item>
-        <item name="android:layout_marginRight">@dimen/Margin_20dp</item>
-        <item name="android:background">@color/green</item>
+        <item name="android:layout_marginLeft">@dimen/Margin_10dp</item>
+        <item name="android:layout_marginRight">@dimen/Margin_10dp</item>
+        <item name="android:background">@color/green_light</item>
         <item name="android:stretchColumns">*</item>
     </style>
 
@@ -80,7 +142,7 @@
 
     <style name="Button_TableRow_home">
         <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">@dimen/Long_35dp</item>
+        <item name="android:layout_height">@dimen/Table_button_40dp</item>
         <item name="android:background">@android:color/transparent</item>
         <item name="android:gravity">center</item>
         <item name="android:textAllCaps">false</item>
@@ -116,12 +178,12 @@
     </style>
     <style name="view_flipper">
         <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">@dimen/h_180dp</item>
+        <item name="android:layout_height">@dimen/View_flipper_h</item>
         <item name="android:layout_margin">@dimen/Margin_10dp</item>
         <item name="android:layout_centerHorizontal">true</item>
     </style>
     <style name="Relative_button_Table_heart">
-        <item name="android:layout_weight">@dimen/weight_33</item>
+        <item name="android:layout_weight">@dimen/Weight_33</item>
         <item name="android:gravity">center_horizontal</item>
     </style>
     <style name="ImageView_Table_heart">
@@ -131,11 +193,11 @@
         <item name="android:layout_centerHorizontal">true</item>
     </style>
     <style name="View_Table_heart">
-        <item name="android:layout_width">@dimen/width_.1dp</item>
+        <item name="android:layout_width">@dimen/Width_.1dp</item>
         <item name="android:layout_height">@dimen/Long_35dp</item>
         <item name="android:background">@color/color_purple</item>
         <item name="android:layout_gravity">center_vertical</item>
-        <item name="android:layout_weight">@dimen/weight_.5</item>
+        <item name="android:layout_weight">@dimen/Weight_.5</item>
     </style>
     <style name="TextView_Table_heart">
         <item name="android:layout_width">wrap_content</item>
@@ -167,4 +229,22 @@
         <item name="android:layout_alignParentBottom">true</item>
         <item name="android:background">@color/colorPrimary</item>
     </style>
+    <style name="Information_Layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="Btn_information">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">50dp</item>
+        <item name="android:padding">15dp</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:background">@color/btn_inf_dark</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <dimen name="Table_button_40dp">40dp</dimen>
+    <dimen name="txt_home_padding">7dp</dimen>
 </resources>

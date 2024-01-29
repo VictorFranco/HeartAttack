@@ -3,28 +3,36 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scroll_login"
     style="@style/matchmatch"
-    tools:context="mx.ipn.heartattack.LogIn">
+    tools:context="mx.ipn.heartattack.StartOptions"
+    android:padding="@dimen/Padding_dialog">
     <RelativeLayout
         style="@style/warpwarp"
         android:layout_gravity="center_vertical">
+        <TextView
+            android:id="@+id/title_login"
+            android:text="@string/txt_login"
+            android:layout_marginBottom="@dimen/Margin_10dp"
+            style="@style/Title"
+            android:textSize="35sp"/>
         <EditText
             android:id="@+id/login_user"
+            android:layout_below="@id/title_login"
             style="@style/Edit"
-            android:layout_marginBottom="@dimen/Long_35dp"
-            android:hint="@string/txt_user"
+            android:hint="@string/txt_email"
             android:inputType="text" />
         <EditText
             android:id="@+id/login_password"
             style="@style/Edit"
             android:layout_below="@+id/login_user"
-            android:layout_marginBottom="@dimen/Long_35dp"
+            android:layout_marginBottom="@dimen/Margin_10dp"
             android:hint="@string/txt_password"
             android:inputType="textPassword" />
         <Button
             android:id="@+id/btn_login"
-            style="@style/Btn"
+            style="@style/Btn_start_options"
             android:layout_below="@+id/login_password"
-            android:text="@string/txt_login" />
+            android:text="@string/txt_get_in" />
     </RelativeLayout>
 </ScrollView>

@@ -1,50 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     style="@style/matchmatch"
     tools:context=".Questionnaires">
     <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_vertical">
-            <TextView
-                android:id="@+id/c"
-                style="@style/Title"
-                android:text="Cuestionarios" />
-            <TextView
-                android:id="@+id/xx"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/c"
-                android:text="¿El corazon es un organo vital?" />
-            <TableLayout
-                android:id="@+id/tt"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/xx">
-                <RadioGroup>
-                    <RadioButton
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="si" />
-
-                    <RadioButton
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="no" />
-                </RadioGroup>
-            </TableLayout>
-            <Button
-                android:id="@+id/btn_questionnaires_save"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/tt"
-                android:layout_centerHorizontal="true"
-                android:text="enviar" />
-        </RelativeLayout>
+        android:id="@+id/scroll_quest"
+        style="@style/matchwarp">
+        <FrameLayout
+            style="@style/matchwarp">
+            <RelativeLayout
+                android:id="@+id/relative_quest_options"
+                style="@style/matchwarp">
+                <TextView
+                    android:id="@+id/txt_Title_questionnaire1"
+                    style="@style/Title_questionnaires"
+                    android:text="@string/txt_questionnaires" />
+                <Button
+                    android:id="@+id/btn_quest_1"
+                    android:layout_below="@id/txt_Title_questionnaire1"
+                    style="@style/Btn_options_question"
+                    android:text="@string/txt_quest1"/>
+                <Button
+                    android:id="@+id/btn_quest_2"
+                    android:layout_alignEnd="@id/btn_quest_1"
+                    style="@style/Btn_options_question"
+                    android:layout_below="@id/btn_quest_1"
+                    android:text="@string/txt_quest2"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/relative_quest"
+                style="@style/matchmatch">
+                <TextView
+                    android:id="@+id/txt_question"
+                    style="@style/Title_questionnaires"
+                    android:text="@string/txt_questionnaires" />
+                <ImageView
+                    android:id="@+id/icon_back_question"
+                    android:layout_below="@id/txt_question"
+                    style="@style/warpwarp"
+                    android:src="@mipmap/ic_back"/>
+                <LinearLayout
+                    android:id="@+id/prueba"
+                    style="@style/matchwarp"
+                    android:layout_below="@id/icon_back_question"
+                    android:orientation="vertical">
+                </LinearLayout>
+                <Button
+                    android:id="@+id/btn_questionnaires_save"
+                    style="@style/Btn_capital_letter"
+                    android:layout_below="@id/prueba"
+                    android:text="@string/txt_Submit" />
+            </RelativeLayout>
+        </FrameLayout>
     </ScrollView>
 </RelativeLayout>

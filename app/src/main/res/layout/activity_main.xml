@@ -7,8 +7,6 @@
     tools:context="mx.ipn.heartattack.MainActivity">
     <RelativeLayout
         android:id="@+id/relative_start"
-        android:layout_gravity="center"
-        android:layout_marginTop="-50dp"
         style="@style/matchwarp">
     </RelativeLayout>
 </ScrollView>

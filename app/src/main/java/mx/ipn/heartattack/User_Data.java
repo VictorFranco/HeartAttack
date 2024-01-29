@@ -5,8 +5,8 @@ package mx.ipn.heartattack;
  */
 
 public class User_Data {
-
-    static String name, user, email, password;
+    static String name, user, email, password,_id;
+    static int questionarios[];
 
     public static String getName() {
         return name;
@@ -32,10 +32,23 @@ public class User_Data {
     public static void setPassword(String password){
         User_Data.password=password;
     }
+    public static int[] getQuestionarios() {
+        return questionarios;
+    }
+    public static void setQuestionarios(int[] questionarios) {
+        User_Data.questionarios = questionarios;
+    }
+    public static String get_id() {
+        return _id;
+    }
+    public static void set_id(String _id) {
+        User_Data._id = _id;
+    }
     public static void clear(){
         name=null;
         user=null;
         email=null;
         password=null;
+        _id=null;
     }
 }

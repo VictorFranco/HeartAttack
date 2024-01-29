@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     style="@style/matchmatch"
     tools:context=".Stats">
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Estadisticas"/>
+        android:id="@+id/tit"
+        style="@style/Title"
+        android:text="@string/txt_stats" />
+    <ScrollView
+        android:layout_below="@id/tit"
+        style="@style/matchmatch">
+        <LinearLayout
+            android:id="@+id/stats"
+            style="@style/matchmatch"
+            android:orientation="vertical">
+        </LinearLayout>
+    </ScrollView>
 </RelativeLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/alertdialog"
+    style="@style/matchwarp"
+    android:padding="@dimen/Margin_10dp">
+    <TextView
+        android:id="@+id/txt_alert"
+        style="@style/matchwarp"
+        android:layout_marginBottom="@dimen/Margin_10dp"
+        android:text="@string/txt_peticion"/>
+    <CheckBox
+        android:id="@+id/checkbox_cerrar"
+        style="@style/warpwarp"
+        android:layout_below="@id/txt_alert"
+        android:text="@string/txt_sign_off"/>
+</RelativeLayout>

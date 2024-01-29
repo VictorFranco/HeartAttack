@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/matchmatch">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <RelativeLayout
+                android:id="@+id/search_home"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <SearchView
+                    android:id="@+id/search"
+                    style="@style/matchwarp"
+                    android:iconifiedByDefault="false"
+                    android:queryHint="Search here">
+                </SearchView>
+                <ListView
+                    android:id="@+id/list_view"
+                    style="@style/matchmatch"
+                    android:layout_below="@id/search">
+                </ListView>
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/icon_back_search"
+                style="@style/warpwarp"
+                android:layout_marginTop="@dimen/Margin_10dp"
+                android:src="@mipmap/ic_back" />
+
+            <LinearLayout
+                android:id="@+id/search_t1"
+                style="@style/Information_Layout">
+                <TextView
+                    style="@style/Title"
+                    android:text="@string/txt_Anatomy" />
+
+                <TextView
+                    style="@style/TextView_sub"
+                    android:text="@string/txt_anatomy_sub1" />
+
+                <TextView
+                    style="@style/TextView_txt"
+                    android:text="@string/txt_anatomy_txt1" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/Table_height"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/search_t2"
+                style="@style/Information_Layout">
+
+                <TextView
+                    style="@style/Title"
+                    android:text="@string/txt_Anatomy" />
+
+                <TextView
+                    style="@style/TextView_sub"
+                    android:text="@string/txt_anatomy_sub2" />
+
+                <TextView
+                    style="@style/TextView_txt"
+                    android:text="@string/txt_anatomy_txt2" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/Table_height" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/search_t3"
+                style="@style/Information_Layout">
+
+                <TextView
+                    style="@style/Title"
+                    android:text="@string/txt_Anatomy" />
+
+                <TextView
+                    style="@style/TextView_sub"
+                    android:text="@string/txt_anatomy_sub3" />
+
+                <TextView
+                    style="@style/TextView_txt"
+                    android:text="@string/txt_anatomy_txt3" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/Table_height" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/search_t4"
+                style="@style/Information_Layout">
+
+                <TextView
+                    style="@style/Title"
+                    android:text="@string/txt_Anatomy" />
+
+                <TextView
+                    style="@style/TextView_sub"
+                    android:text="@string/txt_anatomy_sub4" />
+
+                <TextView
+                    style="@style/TextView_txt"
+                    android:text="@string/txt_anatomy_txt4" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/Table_height" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/search_t5"
+                style="@style/Information_Layout">
+
+                <TextView
+                    style="@style/Title"
+                    android:text="@string/txt_Anatomy" />
+
+                <TextView
+                    style="@style/TextView_sub"
+                    android:text="@string/txt_anatomy_sub5" />
+
+                <TextView
+                    style="@style/TextView_txt"
+                    android:text="@string/txt_anatomy_txt5" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/Table_height" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/search_t6"
+                style="@style/Information_Layout">
+
+                <TextView
+                    style="@style/Title"
+                    android:text="@string/txt_Anatomy" />
+
+                <TextView
+                    style="@style/TextView_sub"
+                    android:text="@string/txt_anatomy_sub6" />
+
+                <TextView
+                    style="@style/TextView_txt"
+                    android:text="@string/txt_anatomy_txt6" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/Table_height" />
+            </LinearLayout>
+        </FrameLayout>
+</RelativeLayout>

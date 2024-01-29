@@ -3,6 +3,7 @@ package mx.ipn.heartattack;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
+import android.support.design.widget.NavigationView;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.view.LayoutInflater;
@@ -10,6 +11,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import static android.content.Context.MODE_PRIVATE;
@@ -19,11 +21,12 @@ import static android.content.Context.MODE_PRIVATE;
  */
 
 public class Settings extends Fragment implements View.OnClickListener{
-    String txt[];
+    String txt[],existing_user,finished,sintaxis;
     Cursor cursor;
     Button btn_save;
     EditText edit_name,edit_user,edit_email,edit_password;
     SQLiteDatabase db;
+    TextView user,email;
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view=inflater.inflate(R.layout.activity_settings,container,false);
@@ -37,7 +40,12 @@ public class Settings extends Fragment implements View.OnClickListener{
         edit_email.setText(User_Data.getEmail());
         edit_password.setText(User_Data.getPassword());
         btn_save.setOnClickListener(this);
-
+        existing_user=getResources().getString(R.string.txt_existing_user);
+        finished=getResources().getString(R.string.txt_finished);
+        sintaxis=getResources().getString(R.string.txt_sintaxis);
+        View header = ((NavigationView)getActivity().findViewById(R.id.nav_view)).getHeaderView(0);
+        user=(TextView)header.findViewById(R.id.profile_user);
+        email=(TextView)header.findViewById(R.id.profile_correo);
         return view;
     }
 
@@ -52,6 +60,8 @@ public class Settings extends Fragment implements View.OnClickListener{
             txt[3]=edit_password.getText().toString();
             if (validar()) {
                 findUser();
+            }else {
+                Toast.makeText(getContext(),sintaxis , Toast.LENGTH_LONG).show();
             }
         }
     }
@@ -69,7 +79,7 @@ public class Settings extends Fragment implements View.OnClickListener{
             }
         }
         if (data) {
-            Toast.makeText(getContext(), "Usuario ya existente", Toast.LENGTH_SHORT).show();
+            Toast.makeText(getContext(),existing_user, Toast.LENGTH_SHORT).show();
         } else {
             String update;
             update = "UPDATE users set name='" + txt[0] + "',user='" + txt[1] + "',email='" + txt[2] + "',password='" + txt[3] + "'where user='" + User_Data.user + "';";
@@ -79,7 +89,9 @@ public class Settings extends Fragment implements View.OnClickListener{
             User_Data.setUser(txt[1]);
             User_Data.setEmail(txt[2]);
             User_Data.setPassword(txt[3]);
-            Toast.makeText(getContext(),"hecho",Toast.LENGTH_LONG).show();
+            user.setText(txt[1]);
+            email.setText(txt[2]);
+            Toast.makeText(getContext(),finished,Toast.LENGTH_LONG).show();
             FragmentManager fm=getFragmentManager();
             fm.beginTransaction().replace(R.id.relative_user_interface,new Home()).commit();
         }

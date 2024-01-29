@@ -1,5 +1,6 @@
 package mx.ipn.heartattack;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.AsyncTask;
@@ -17,9 +18,9 @@ import android.widget.ViewFlipper;
  */
 
 public class MainActivity extends AppCompatActivity {
-    Button btn_start;
     SQLiteDatabase db;
     Boolean s=false,d=false;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -50,6 +51,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    @SuppressLint("StaticFieldLeak")
     class MyAsyncTask extends AsyncTask<Integer,Integer,String>{
 
         @Override

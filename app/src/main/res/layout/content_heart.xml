@@ -11,7 +11,7 @@
     <TableLayout
         style="@style/Table_heart">
         <TableRow
-            android:weightSum="@dimen/weightSum">
+            android:weightSum="@dimen/WeightSum">
             <RelativeLayout
                 android:id="@+id/btn_anatomy"
                 style="@style/Relative_button_Table_heart">
@@ -38,23 +38,23 @@
                 <TextView
                     android:layout_below="@id/img_modelo"
                     style="@style/TextView_Table_heart"
-                    android:text="Model">
+                    android:text="@string/txt_Model">
                 </TextView>
             </RelativeLayout>
             <View
                 style="@style/View_Table_heart">
             </View>
             <RelativeLayout
-                android:id="@+id/btn_fisionomy"
+                android:id="@+id/btn_search"
                 style="@style/Relative_button_Table_heart">
                 <ImageView
-                    android:id="@+id/img_fisionomy"
+                    android:id="@+id/img_search"
                     style="@style/ImageView_Table_heart"
-                    android:src="@mipmap/ic_fisionomy"/>
+                    android:src="@mipmap/ic_search"/>
                 <TextView
-                    android:layout_below="@id/img_fisionomy"
+                    android:layout_below="@id/img_search"
                     style="@style/TextView_Table_heart"
-                    android:text="@string/txt_Fisionomy">
+                    android:text="@string/txt_search">
                 </TextView>
             </RelativeLayout>
         </TableRow>
