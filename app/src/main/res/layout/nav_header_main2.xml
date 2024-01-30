@@ -13,11 +13,6 @@
     android:paddingTop="@dimen/Activity_vertical_margin"
     tools:context="mx.ipn.heartattack.Profile"
     android:theme="@style/ThemeOverlay.AppCompat.Dark">
-    <ImageView
-        android:id="@+id/imageView"
-        style="@style/warpwarp"
-        android:paddingTop="@dimen/Nav_header_vertical_spacing"
-        app:srcCompat="@mipmap/ic_launcher_round" />
     <TextView
         android:id="@+id/profile_user"
         style="@style/matchwarp"

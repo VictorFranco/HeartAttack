@@ -8,17 +8,18 @@
         android:layout_height="wrap_content">
         <FrameLayout
             android:id="@+id/anatomy_frame"
+            android:padding="20dp"
             style="@style/matchwarp">
             <LinearLayout
                 android:id="@+id/anatomy_home"
                 style="@style/matchmatch"
-                android:layout_marginTop="60dp"
+                android:layout_marginTop="80dp"
                 android:orientation="vertical">
             </LinearLayout>
             <LinearLayout
                 android:id="@+id/anatomy_option"
                 style="@style/matchmatch"
-                android:layout_marginTop="60dp"
+                android:layout_marginTop="80dp"
                 android:orientation="vertical">
             </LinearLayout>
             <LinearLayout

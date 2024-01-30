@@ -455,6 +455,8 @@ public class StartOptions extends Fragment implements View.OnClickListener,View.
 
             }
         }
+        txt[4] = txt[1];
+        txt[1] = txt[0];
         return w;
     }
 
